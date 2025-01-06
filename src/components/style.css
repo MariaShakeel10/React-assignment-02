@@ -1,0 +1,25 @@
+/* Hide the desktop menu on screens smaller than medium (768px) */
+.desktop-menu {
+    display: none;
+}
+
+.mobile-menu-button {
+    display: block;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between !important;
+    margin: 2.5em !important;
+}
+
+/* Show the desktop menu on medium screens and larger (min-width: 768px) */
+@media (min-width: 768px) {
+    .desktop-menu {
+        display: flex !important;
+    }
+
+    .mobile-menu-button {
+        display: none !important;
+    }
+}
