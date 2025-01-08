@@ -6,7 +6,7 @@ import './style.css'
 
 function Sec1() {
     return (
-        <Row style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap', height: '100vh', padding: '16rem' }}>
+        <Row style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', flexWrap: 'wrap', height: '100vh', padding: '16rem', }}gap='medium'>
             <Col xs={24}
                 sm={24}
                 md={24}
@@ -30,7 +30,7 @@ function Sec1() {
                 md={24}
                 lg={12}>
                 <Image
-                    width={400}
+                    width={250}
                     src={img1}
                 />
             </Col>

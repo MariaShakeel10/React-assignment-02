@@ -6,7 +6,7 @@ const Card1 = () => {
   <>
   <div style={{textAlign:'center'}}><h1> We offer Best services</h1></div>
   <Row justify="space-around">
-    <Col span={4}>  <Card
+    <Col xs={24} sm={24} md={12} lg={6}>  <Card
     hoverable
     style={{
       width: 100,
@@ -15,7 +15,7 @@ const Card1 = () => {
   >
     <Meta title="Europe Street beat" description="www.instagram.com" />
   </Card></Col>
-    <Col span={4}>  <Card
+    <Col xs={24} sm={24} md={12} lg={6}>  <Card
     hoverable
     style={{
       width: 100,
@@ -24,7 +24,7 @@ const Card1 = () => {
   >
     <Meta title="Europe Street beat" description="www.instagram.com" />
   </Card></Col>
-    <Col span={4}>  <Card
+    <Col xs={24} sm={24} md={12} lg={6}>  <Card
     hoverable
     style={{
       width: 100,
@@ -33,7 +33,7 @@ const Card1 = () => {
   >
     <Meta title="Europe Street beat" description="www.instagram.com" />
   </Card></Col>
-    <Col span={4}>  <Card
+    <Col xs={24} sm={24} md={12} lg={6}>  <Card
     hoverable
     style={{
       width: 100,
