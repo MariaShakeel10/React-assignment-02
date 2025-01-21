@@ -1,9 +1,10 @@
-*{
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box ;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
 /* Hide the desktop menu on screens smaller than medium (768px) */
 .desktop-menu {
     display: none;
@@ -22,13 +23,35 @@
 .img size1 {
     width: 200.87px;
     height: 100px;
- 
+
 
 }
+
 .margin {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
 }
+
+/* container */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+
 
 /* Show the desktop menu on medium screens and larger (min-width: 768px) */
 @media (max-width: 768px) {
@@ -43,6 +66,10 @@
     .sec1-row img {
         width: 100% !important;
         height: auto !important;
+    }
+
+    .container {
+        max-width: 768px;
     }
 }
 
