@@ -32,6 +32,8 @@ function Sec2() {
                 >
                     <Row justify="space-around" gutter={[16, 16]}>
                         <Col xs={24} sm={24} md={24} lg={12}>
+                        <h1>Book your next trip 
+                        in 3 easy steps</h1>
                             <List
                                 itemLayout="horizontal"
                                 dataSource={data}

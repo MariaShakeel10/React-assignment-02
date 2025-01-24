@@ -14,7 +14,7 @@ const Card1 = () => {
           hoverable
           style={{
             width: '185px',
-            height: '310px',margin:'1em', padding: '2em', textAlign: 'center',
+            height: '310px',margin:'1em', padding: '0.5em', textAlign: 'center',
           }}
           cover={<img alt="example" src={g1} style={{ width: '65px', height: '75px', margin: '0 auto' }} />}
         >
@@ -24,7 +24,7 @@ const Card1 = () => {
           hoverable
           style={{
             width: '185px',
-            height: '310px',margin:'1em', padding: '2em', textAlign: 'center'
+            height: '310px',margin:'1em', padding: '0.5em', textAlign: 'center'
           }}
           cover={<img alt="example" src={g2} style={{ width: '65px', height: '75px', margin: '0 auto' }} />}
         >
@@ -34,7 +34,7 @@ const Card1 = () => {
           hoverable
           style={{
             width: '185px',
-            height: '310px',margin:'1em', padding: '2em', textAlign: 'center'
+            height: '310px',margin:'1em', padding: '0.5em', textAlign: 'center'
           }}
           cover={<img alt="example" src={g3} style={{ width: '65px', height: '75px', margin: '0 auto' }} />}
         >
@@ -46,7 +46,7 @@ const Card1 = () => {
           hoverable
           style={{
             width: '185px',
-            height: '310px',margin:'1em', padding: '2em', textAlign: 'center'
+            height: '310px',margin:'1em', padding: '0.5em', textAlign: 'center'
           }}
           cover={<img alt="example" src={g4} style={{ width: '65px', height: '75px', margin: '0 auto' }} />}
         >

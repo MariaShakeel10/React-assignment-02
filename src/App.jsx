@@ -7,6 +7,7 @@ import Sec1 from './components/Sec1';
 import Card1 from './components/Card1';
 import Sec2 from './components/Sec2';
 import Footer1 from './components/Foooter1';
+import Flights from './components/Flights';
 const { Header, Content, Footer } = Layout;
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Sec1 />
           <Card1 />
           <Sec2 />
+          <Flights  />
         </Content>
       </div>
       <Footer >

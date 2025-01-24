@@ -2,17 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-/* Hide the desktop menu on screens smaller than medium (768px) */
-.desktop-menu {
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Desktop Menu */
+  .desktop-menu {
     display: none;
-}
-
-.mobile-menu-button {
+  }
+  
+  /* Mobile Menu Button */
+  .mobile-menu-button {
     display: block;
-}
+  }
 
 .menu-items {
     display: flex;
@@ -76,9 +81,9 @@
 @media (min-width: 768px) {
     .desktop-menu {
         display: flex !important;
-    }
-
-    .mobile-menu-button {
+      }
+    
+      .mobile-menu-button {
         display: none !important;
-    }
+      }
 }
